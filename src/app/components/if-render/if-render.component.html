@@ -1,0 +1,8 @@
+<div>
+  <div *ngIf="canShow; else cantShow">
+    Este valor está validado
+  </div>
+  <ng-template #cantShow>
+    Este valor <strong>não</strong> está validado
+  </ng-template>
+</div>

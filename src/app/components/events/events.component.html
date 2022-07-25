@@ -1,0 +1,5 @@
+<div class="display-column">
+  <button (click)="showMessage()">Mudar visualização</button>
+  <p *ngIf="showBoolean; else dontShowBoolean">Exibindo mensagem</p>
+  <ng-template #dontShowBoolean>Mensagem oculta</ng-template>
+</div>
