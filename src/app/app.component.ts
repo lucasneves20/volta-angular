@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class AppComponent {
   title = 'volta-angular';
   userName: string = 'Lucas Neves';
+  age: number = 19;
   hobbies: string[] = [
     'jogar dark souls',
     'estudar programação',

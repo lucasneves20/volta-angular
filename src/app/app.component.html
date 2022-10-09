@@ -1,6 +1,4 @@
-<h1>
-  Angular!!!
-</h1>
+<h1>Angular!!!</h1>
 
 <div class="class">
   <app-dirst-component [hobbies]="hobbies"></app-dirst-component>
@@ -9,7 +7,12 @@
   <app-second-component></app-second-component>
 </div>
 <div class="class">
-  <app-parent-data [name]="userName"></app-parent-data>
+  <app-parent-data
+    [name]="userName"
+    [title]="title"
+    [age]="age"
+    [hobbies]="hobbies"
+  ></app-parent-data>
 </div>
 <div class="class">
   <app-directives></app-directives>
@@ -22,4 +25,16 @@
 </div>
 <div class="class">
   <app-emitter></app-emitter>
+</div>
+<div class="class">
+  <app-list-render></app-list-render>
+</div>
+<div class="class">
+  <app-pipes></app-pipes>
+</div>
+<div class="class">
+  <app-two-way-bidings></app-two-way-bidings>
+</div>
+<div class="class">
+  <app-list-database></app-list-database>
 </div>

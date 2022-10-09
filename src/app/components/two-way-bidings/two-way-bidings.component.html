@@ -1,0 +1,28 @@
+<h2>Formulário Brabin</h2>
+
+<!--
+  ? Esse arquivo tem como importante a parte de formulário,
+  ? pegar de um input um dado e pegar seu valor para poder
+  ? manipula-lo na parte lógica
+-->
+
+<div>
+  <form>
+    <input
+      type="text"
+      [(ngModel)]="email"
+      name="email"
+      placeholder="digite seu nome"
+    />
+    <input
+      type="password"
+      [(ngModel)]="password"
+      name="password"
+      placeholder="digite seu nome"
+    />
+    <input type="submit" value="enviar" />
+  </form>
+
+  <p>email: {{ email }}</p>
+  <p>password: {{ password }}</p>
+</div>

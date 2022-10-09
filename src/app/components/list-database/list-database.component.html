@@ -1,0 +1,10 @@
+<h2>Manipulando lista com service</h2>
+
+<ul>
+  <li *ngFor="let hobbie of hobbies">
+    {{ hobbie | titlecase }}
+    <button (click)="manipulate(hobbie)">Manipular</button>
+  </li>
+</ul>
+
+<h4>{{ state }}</h4>
